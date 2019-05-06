@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft"
+      xmlns:xsi="http://wwww.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.gexf.net/1.2draft
+                          http://www.gexf.net/1.2draft/gexf.xds"
+      xmlns:icmeta="http://www.issuecrawler.net/gexf-icmeta"
+      version="1.2">
+  <meta>
+    <creator>Issuecrawler.net GEXF exporter r0.2</creator>
+    <description>Indian Elections</description>
+    <icmeta:id>350597</icmeta:id>
+    <icmeta:schedule_index>0</icmeta:schedule_index>
+    <icmeta:author>Aryan Bhasin</icmeta:author>
+    <icmeta:email>abhasin@princeton.edu</icmeta:email>
+    <icmeta:queued>2019-04-19 01:13:07.753181</icmeta:queued>
+    <icmeta:start>2019-04-18 23:22:59</icmeta:start>
+    <icmeta:end>2019-04-19 00:21:37</icmeta:end>
+    <icmeta:startingpoints><icmeta:StartingPoint URL='http://www.elections.in' />
+<icmeta:StartingPoint URL='https://in.reuters.com/subjects/india-elections' />
+<icmeta:StartingPoint URL='https://indianexpress.com/elections' />
+<icmeta:StartingPoint URL='https://www.bbc.com/news/topics/c27kzzpqm7xt/india-election-2019' />
+<icmeta:StartingPoint URL='https://www.cnn.com/india/live-news/india-election-latest-april-17-intl/index.html' />
+<icmeta:StartingPoint URL='https://www.dawn.com/india-elections' />
+<icmeta:StartingPoint URL='https://www.indiatoday.in/elections' />
+<icmeta:StartingPoint URL='https://www.ndtv.com/elections' />
+</icmeta:startingpoints>
+    <icmeta:iterations>1</icmeta:iterations>
+    <icmeta:depth>2</icmeta:depth>
+    <icmeta:colink>by site</icmeta:colink>
+    <icmeta:excluded><icmeta:ExcludeSubstring>download.cnet.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>download.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>download.net</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>netscape.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.adobe.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.amazon.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.apple.com/quicktime</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.hotmail.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.icq.com/download</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.macromedia.com/shockwave</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.microsoft.com/windows/ie</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.napster.com/download</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.opera.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.real.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.winamp.com/download</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.winzip.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>microsoft.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>rambler.ru</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>macromedia.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>wordpress.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>blogger.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>jigsaw.w3.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>validator.w3.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>movabletype.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>news.google.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.google.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>statcounter.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>yahoo.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>google.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>typepad.com</icmeta:ExcludeSubstring>
+</icmeta:excluded>  
+    <icmeta:authority>0</icmeta:authority>
+  </meta>
+  <graph defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="0" title="category" type="string"/>
+      <attribute id="1" title="authority" type="integer"/>
+      <attribute id="2" title="knowledge" type="integer"/>
+      <attribute id="3" title="in_network" type="boolean"/>
+      <attribute id="4" title="inlinksfromcrawl" type="integer"/>
+      <attribute id="5" title="tld" type="string"/>
+      <attribute id="6" title="sldtld" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="s48133632" label="elections.in">
+        <attvalue for="0" value="IN"/>
+        <attvalue for="1" value="0"/>
+        <attvalue for="2" value="11"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="0"/>
+        <attvalue for="5" value="in"/>
+        <attvalue for="6" value="in"/>
+        <nodes>
+          <node id="p399992961" label="http://www.elections.in/arunachal-pradesh/office-of-chief-electoral-officer.html"><attvalue for="3" value="true"/></node>
+          <node id="p399992962" label="http://www.elections.in/bhartiya-chunav/voter-id-card.html"><attvalue for="3" value="true"/></node>
+          <node id="p399992963" label="http://www.elections.in/goa/office-of-chief-electoral-officer.html"><attvalue for="3" value="true"/></node>
+          <node id="p399992964" label="http://www.elections.in/news/2019-assembly-elections-and-assembly-bypolls-in-odisha-live-updates/"><attvalue for="3" value="true"/></node>
+          <node id="p399992965" label="http://www.elections.in/news/Jammu-and-Kashmir-Samachar/army-encounters-with-terrorist-in-pulwama-killed-mastermind-ghazi"><attvalue for="3" value="true"/></node>
+          <node id="p399992966" label="http://www.elections.in/news/Lok+Sabha-Samachar/amit-shah-jaipur-visit"><attvalue for="3" value="true"/></node>
+          <node id="p399992967" label="http://www.elections.in/news/Lok-Sabha-elections-2019-bsp-announces-candidates-for-6-chhattisgarh-seats/"><attvalue for="3" value="true"/></node>
+          <node id="p399992968" label="http://www.elections.in/news/assembly-elections-and-assembly-bypolls-in-tamil-nadu-live-updates/"><attvalue for="3" value="true"/></node>
+          <node id="p399992969" label="http://www.elections.in/news/lok-sabha-elections-2019-bjp-might-lose-50-60-seats-in-uttar-pradesh-a-mathematical-perspective/"><attvalue for="3" value="true"/></node>
+          <node id="p399992970" label="http://www.elections.in/news/lok-sabha-elections-2019-election-commission-barred-leaders-for-provocative-speeches/"><attvalue for="3" value="true"/></node>
+          <node id="p399992971" label="http://www.elections.in/news/lok-sabha-elections-2019-phase-2-top-vip-contests-in-second-phase/"><attvalue for="3" value="true"/></node>
+          <node id="p399992972" label="http://www.elections.in/news/lok-sabha-elections-2019/lok-sabha-elections-2019-second-phase-of-polling-on-april-18/"><attvalue for="3" value="true"/></node>
+          <node id="p399992973" label="http://www.elections.in/news/lok-sabha-elections-phase-2-parliamentary-seats"><attvalue for="3" value="true"/></node>
+          <node id="p399992974" label="http://www.elections.in/news/lok-sabha-samachar/akhilesh-vs-yogi-sp-bsp-delegation-who-arrived-near-governor-ram-naik"><attvalue for="3" value="true"/></node>
+          <node id="p399992975" label="http://www.elections.in/news/lok-sabha-samachar/amit-shah-meets-anupriya-patel-will-the-bjp-and-apana-dal-fight-together"><attvalue for="3" value="true"/></node>
+          <node id="p399992976" label="http://www.elections.in/news/lok-sabha-samachar/bathinda-the-way-for-harsimrat-kaur-will-not-be-as-easy-as-2014-this-time"><attvalue for="3" value="true"/></node>
+          <node id="p399992977" label="http://www.elections.in/news/lok-sabha-samachar/in-punjab-BJP-and-akali-dal-together-seat-sharing-confirm"><attvalue for="3" value="true"/></node>
+          <node id="p399992978" label="http://www.elections.in/news/lok-sabha-samachar/lok-sabha-elections-2019-mulayam-praised-modi-difficulties-increases-before-sp"><attvalue for="3" value="true"/></node>
+          <node id="p399992979" label="http://www.elections.in/news/lok-sabha-samachar/the-attack-of-the-opposition-on-bjps-program-politics-in-a-war-like-situation"><attvalue for="3" value="true"/></node>
+          <node id="p399992980" label="http://www.elections.in/news/lok-sabha-samachar/will-congress-be-able-to-win-on-khandwa-lok-sabha-seat"><attvalue for="3" value="true"/></node>
+          <node id="p399992981" label="http://www.elections.in/news/lok-sabha-samachar/yeddyurappa-said-BJP-will-win-22-lok-sabha-seats-in-karnataka"><attvalue for="3" value="true"/></node>
+          <node id="p399992982" label="http://www.elections.in/news/others-samachar/pm-modi-announcement-on-pulwama-attack-5-big-decisions-of-the-government"><attvalue for="3" value="true"/></node>
+          <node id="p399992983" label="http://www.elections.in/political-corner/article-15-of-the-indian-constitution/"><attvalue for="3" value="true"/></node>
+          <node id="p399992984" label="http://www.elections.in/political-corner/article-19-of-indian-constitution/"><attvalue for="3" value="true"/></node>
+          <node id="p399992985" label="http://www.elections.in/political-corner/significance-of-article-14-of-indian-constitution/"><attvalue for="3" value="true"/></node>
+          <node id="p399992986" label="http://www.elections.in/political-corner/what-is-article-21-and-its-impact-on-india/"><attvalue for="3" value="true"/></node>
+          <node id="p399992987" label="http://www.elections.in/uttar-pradesh/office-of-chief-electoral-officer.html"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133634" label="indianexpress.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="0"/>
+        <attvalue for="2" value="5"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="0"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399993008" label="http://www.indianexpress.com/syndication/"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133631" label="youtube.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="53"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="2"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992960" label="http://www.youtube.com/IndianExpress"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133630" label="twitter.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="38"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="19"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992959" label="http://twitter.com/home?status=à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹ à¤¸à¥ à¤®à¤¿à¤²à¥à¤ à¤à¤¨à¥à¤ªà¥à¤°à¤¿à¤¯à¤¾ à¤ªà¤à¥à¤², à¤à¥à¤¯à¤¾ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤ªà¤¨à¤¾ à¤¦à¤² à¤®à¤¿à¤²à¤à¤° à¤²à¤¡à¤¼à¥à¤à¤à¥ à¤à¥à¤¨à¤¾à¤µ? http://www.elections.in/news/lok-sabha-samachar/amit-shah-meets-anupriya-patel-will-the-bjp-and-apana-dal-fight-together"><attvalue for="3" value="true"/></node>
+          <node id="p399992958" label="http://twitter.com/home?status=à¤à¤à¤¡à¤µà¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¥à¤¯à¤¾ 2014 à¤à¥ à¤¹à¤¾à¤° à¤à¤¾ à¤¬à¤¦à¤²à¤¾ à¤²à¥ à¤ªà¤¾à¤à¤à¥ à¤à¤¾à¤à¤à¥à¤°à¥à¤¸ http://www.elections.in/news/lok-sabha-samachar/will-congress-be-able-to-win-on-khandwa-lok-sabha-seat"><attvalue for="3" value="true"/></node>
+          <node id="p399992957" label="http://twitter.com/home?status=BJP Might Lose 50-60 Seats in Uttar Pradesh â A Mathematical Perspective? http://www.elections.in/news/lok-sabha-elections-2019-bjp-might-lose-50-60-seats-in-uttar-pradesh-a-mathematical-perspective/"><attvalue for="3" value="true"/></node>
+          <node id="p399992956" label="http://twitter.com/home?status=Election Commission Barred Leaders for Provocative Speeches http://www.elections.in/news/lok-sabha-elections-2019-election-commission-barred-leaders-for-provocative-speeches/"><attvalue for="3" value="true"/></node>
+          <node id="p399992955" label="http://twitter.com/home?status=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤à¤à¥à¤ : à¤à¤¤à¤à¤à¤¿à¤¯à¥à¤ à¤à¥ à¤¸à¤¾à¤¥ à¤¸à¥à¤¨à¤¾ à¤à¥ à¤®à¥à¤ à¤­à¥à¤¡à¤¼ à¤à¤¾à¤°à¥, à¤®à¤¾à¤¸à¥à¤à¤°à¤®à¤¾à¤à¤¨à¥à¤¡ à¤à¤¾à¤à¥ à¤¹à¥à¤ à¤¢à¥à¤° http://www.elections.in/news/Jammu-and-Kashmir-Samachar/army-encounters-with-terrorist-in-pulwama-killed-mastermind-ghazi"><attvalue for="3" value="true"/></node>
+          <node id="p399992954" label="http://twitter.com/home?status=à¤¬à¤ à¤¿à¤à¤¡à¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¤¸ à¤¬à¤¾à¤° 2014 à¤à¥ à¤¤à¤°à¤¹ à¤à¤¸à¤¾à¤¨ à¤¨à¤¹à¥à¤ à¤¹à¥à¤à¥ à¤¹à¤°à¤¸à¤¿à¤®à¤°à¤¤ à¤à¥à¤° à¤à¥ à¤°à¤¾à¤¹ http://www.elections.in/news/lok-sabha-samachar/bathinda-the-way-for-harsimrat-kaur-will-not-be-as-easy-as-2014-this-time"><attvalue for="3" value="true"/></node>
+          <node id="p399992953" label="http://twitter.com/home?status=Live Updates- 2019 Assembly By-polls in Tamil Nadu http://www.elections.in/news/assembly-elections-and-assembly-bypolls-in-tamil-nadu-live-updates/"><attvalue for="3" value="true"/></node>
+          <node id="p399992952" label="http://twitter.com/home?status=Top VIP Contests in Second Phase http://www.elections.in/news/lok-sabha-elections-2019-phase-2-top-vip-contests-in-second-phase/"><attvalue for="3" value="true"/></node>
+          <node id="p399992951" label="http://twitter.com/home?status=Lok Sabha Elections 2019 – Second Phase Live Updates http://www.elections.in/news/lok-sabha-elections-2019/lok-sabha-elections-2019-second-phase-of-polling-on-april-18/"><attvalue for="3" value="true"/></node>
+          <node id="p399992950" label="http://twitter.com/home?status=à¤à¤ à¤à¤¯à¤ªà¥à¤° à¤¦à¥à¤°à¥ à¤ªà¤° à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹, à¤à¤¾à¤°à¥à¤¯à¤à¤°à¥à¤¤à¤¾à¤à¤ à¤à¥ à¤¦à¥à¤à¤à¥ âà¤®à¥à¤°à¤¾ à¤¬à¥à¤¥-à¤¸à¤¬à¤¸à¥ à¤®à¤à¤¬à¥à¤¤â à¤à¤¾ à¤®à¤à¤¤à¥à¤° http://www.elections.in/news/Lok+Sabha-Samachar/amit-shah-jaipur-visit"><attvalue for="3" value="true"/></node>
+          <node id="p399992949" label="http://twitter.com/home?status=Parliamentary Seats in Phase 2 – Lok Sabha Elections 2019 http://www.elections.in/news/lok-sabha-elections-phase-2-parliamentary-seats"><attvalue for="3" value="true"/></node>
+          <node id="p399992948" label="http://twitter.com/home?status=à¤ªà¤à¤à¤¾à¤¬ à¤®à¥à¤ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤à¤¾à¤²à¥ à¤¦à¤² à¤à¤ à¤¸à¤¾à¤¥, à¤¸à¥à¤à¥à¤ à¤à¤¾ à¤¬à¤à¤à¤µà¤¾à¤°à¤¾ à¤¤à¤¯ http://www.elections.in/news/lok-sabha-samachar/in-punjab-BJP-and-akali-dal-together-seat-sharing-confirm"><attvalue for="3" value="true"/></node>
+          <node id="p399992947" label="http://twitter.com/home?status=Live Updates- 2019 Assembly Elections and Assembly By-Polls in Odisha http://www.elections.in/news/2019-assembly-elections-and-assembly-bypolls-in-odisha-live-updates/"><attvalue for="3" value="true"/></node>
+          <node id="p399992946" label="http://twitter.com/home?status=à¤­à¤¾à¤à¤ªà¤¾ à¤à¥ à¤à¤¾à¤°à¥à¤¯à¤à¥à¤°à¤® à¤ªà¤° à¤µà¤¿à¤ªà¤à¥à¤· à¤à¤¾ à¤¨à¤¿à¤¶à¤¾à¤¨à¤¾, à¤¯à¥à¤¦à¥à¤§ à¤à¥à¤¸à¥ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤®à¥à¤ à¤à¤° à¤°à¤¹à¥ à¤°à¤¾à¤à¤¨à¥à¤¤à¤¿ http://www.elections.in/news/lok-sabha-samachar/the-attack-of-the-opposition-on-bjps-program-politics-in-a-war-like-situation"><attvalue for="3" value="true"/></node>
+          <node id="p399992945" label="http://twitter.com/home?status=à¤²à¥à¤à¤¸à¤­à¤¾ à¤à¥à¤¨à¤¾à¤µ 2019: à¤®à¥à¤²à¤¾à¤¯à¤® à¤à¥ à¤®à¥à¤¦à¥ à¤ªà¥à¤°à¥à¤® à¤¸à¥ à¤¬à¤¢à¤¼à¥ à¤¸à¤ªà¤¾ à¤à¥ à¤®à¥à¤¶à¥à¤à¤¿à¤²à¥à¤ http://www.elections.in/news/lok-sabha-samachar/lok-sabha-elections-2019-mulayam-praised-modi-difficulties-increases-before-sp"><attvalue for="3" value="true"/></node>
+          <node id="p399992944" label="http://twitter.com/home?status=Lok Sabha Elections 2019: BSP announces candidates for 6 Chhattisgarh Seats http://www.elections.in/news/Lok-Sabha-elections-2019-bsp-announces-candidates-for-6-chhattisgarh-seats/"><attvalue for="3" value="true"/></node>
+          <node id="p399992943" label="http://twitter.com/home?status=à¤à¤à¤¿à¤²à¥à¤¶ à¤¬à¤¨à¤¾à¤® à¤¯à¥à¤à¥: à¤°à¤¾à¤à¥à¤¯à¤ªà¤¾à¤² à¤°à¤¾à¤® à¤¨à¤¾à¤à¤ à¤à¥ à¤ªà¤¾à¤¸ à¤ªà¤¹à¥à¤à¤à¤¾ à¤¸à¤ªà¤¾-à¤¬à¤¸à¤ªà¤¾ à¤ªà¥à¤°à¤¤à¤¿à¤¨à¤¿à¤§à¤¿à¤®à¤à¤¡à¤² http://www.elections.in/news/lok-sabha-samachar/akhilesh-vs-yogi-sp-bsp-delegation-who-arrived-near-governor-ram-naik"><attvalue for="3" value="true"/></node>
+          <node id="p399992942" label="http://twitter.com/home?status=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤¹à¤®à¤²à¥ à¤ªà¤° à¤ªà¥à¤à¤® à¤®à¥à¤¦à¥ à¤à¤¾ à¤à¤²à¤¾à¤¨-à¤-à¤à¤à¤: à¤¸à¤°à¤à¤¾à¤° à¤¨à¥ à¤²à¤¿à¤ 5 à¤¬à¤¡à¤¼à¥ à¤«à¥à¤¸à¤²à¥ http://www.elections.in/news/others-samachar/pm-modi-announcement-on-pulwama-attack-5-big-decisions-of-the-government"><attvalue for="3" value="true"/></node>
+          <node id="p399992941" label="http://twitter.com/home?status=à¤¯à¥à¤¦à¤¿à¤¯à¥à¤°à¤ªà¥à¤ªà¤¾ à¤à¥ à¤­à¤°à¥à¤¸à¤¾, à¤à¤¯à¤° à¤¸à¥à¤à¥à¤°à¤¾à¤à¤ à¤¸à¥ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤°à¥à¤¨à¤¾à¤à¤ à¤®à¥à¤ à¤à¥à¤¤à¥à¤à¥ 22 à¤¸à¥à¤à¥à¤ http://www.elections.in/news/lok-sabha-samachar/yeddyurappa-said-BJP-will-win-22-lok-sabha-seats-in-karnataka"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133629" label="subscribe.indianexpress.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="22"/>
+        <attvalue for="2" value="2"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="22"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992940" label="http://subscribe.indianexpress.com/"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133628" label="stumbleupon.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="38"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="19"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992939" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019/lok-sabha-elections-2019-second-phase-of-polling-on-april-18/&amp;title=Lok Sabha Elections 2019 – Second Phase Live Updates"><attvalue for="3" value="true"/></node>
+          <node id="p399992938" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-elections-phase-2-parliamentary-seats&amp;title=Parliamentary Seats in Phase 2 – Lok Sabha Elections 2019"><attvalue for="3" value="true"/></node>
+          <node id="p399992937" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019-election-commission-barred-leaders-for-provocative-speeches/&amp;title=Election Commission Barred Leaders for Provocative Speeches"><attvalue for="3" value="true"/></node>
+          <node id="p399992936" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/lok-sabha-elections-2019-mulayam-praised-modi-difficulties-increases-before-sp&amp;title=à¤²à¥à¤à¤¸à¤­à¤¾ à¤à¥à¤¨à¤¾à¤µ 2019: à¤®à¥à¤²à¤¾à¤¯à¤® à¤à¥ à¤®à¥à¤¦à¥ à¤ªà¥à¤°à¥à¤® à¤¸à¥ à¤¬à¤¢à¤¼à¥ à¤¸à¤ªà¤¾ à¤à¥ à¤®à¥à¤¶à¥à¤à¤¿à¤²à¥à¤"><attvalue for="3" value="true"/></node>
+          <node id="p399992935" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019-bjp-might-lose-50-60-seats-in-uttar-pradesh-a-mathematical-perspective/&amp;title=BJP Might Lose 50-60 Seats in Uttar Pradesh â A Mathematical Perspective?"><attvalue for="3" value="true"/></node>
+          <node id="p399992934" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/Lok+Sabha-Samachar/amit-shah-jaipur-visit&amp;title=à¤à¤ à¤à¤¯à¤ªà¥à¤° à¤¦à¥à¤°à¥ à¤ªà¤° à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹, à¤à¤¾à¤°à¥à¤¯à¤à¤°à¥à¤¤à¤¾à¤à¤ à¤à¥ à¤¦à¥à¤à¤à¥ âà¤®à¥à¤°à¤¾ à¤¬à¥à¤¥-à¤¸à¤¬à¤¸à¥ à¤®à¤à¤¬à¥à¤¤â à¤à¤¾ à¤®à¤à¤¤à¥à¤°"><attvalue for="3" value="true"/></node>
+          <node id="p399992933" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/bathinda-the-way-for-harsimrat-kaur-will-not-be-as-easy-as-2014-this-time&amp;title=à¤¬à¤ à¤¿à¤à¤¡à¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¤¸ à¤¬à¤¾à¤° 2014 à¤à¥ à¤¤à¤°à¤¹ à¤à¤¸à¤¾à¤¨ à¤¨à¤¹à¥à¤ à¤¹à¥à¤à¥ à¤¹à¤°à¤¸à¤¿à¤®à¤°à¤¤ à¤à¥à¤° à¤à¥ à¤°à¤¾à¤¹"><attvalue for="3" value="true"/></node>
+          <node id="p399992932" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/will-congress-be-able-to-win-on-khandwa-lok-sabha-seat&amp;title=à¤à¤à¤¡à¤µà¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¥à¤¯à¤¾ 2014 à¤à¥ à¤¹à¤¾à¤° à¤à¤¾ à¤¬à¤¦à¤²à¤¾ à¤²à¥ à¤ªà¤¾à¤à¤à¥ à¤à¤¾à¤à¤à¥à¤°à¥à¤¸"><attvalue for="3" value="true"/></node>
+          <node id="p399992931" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/yeddyurappa-said-BJP-will-win-22-lok-sabha-seats-in-karnataka&amp;title=à¤¯à¥à¤¦à¤¿à¤¯à¥à¤°à¤ªà¥à¤ªà¤¾ à¤à¥ à¤­à¤°à¥à¤¸à¤¾, à¤à¤¯à¤° à¤¸à¥à¤à¥à¤°à¤¾à¤à¤ à¤¸à¥ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤°à¥à¤¨à¤¾à¤à¤ à¤®à¥à¤ à¤à¥à¤¤à¥à¤à¥ 22 à¤¸à¥à¤à¥à¤"><attvalue for="3" value="true"/></node>
+          <node id="p399992930" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/Lok-Sabha-elections-2019-bsp-announces-candidates-for-6-chhattisgarh-seats/&amp;title=Lok Sabha Elections 2019: BSP announces candidates for 6 Chhattisgarh Seats"><attvalue for="3" value="true"/></node>
+          <node id="p399992929" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/Jammu-and-Kashmir-Samachar/army-encounters-with-terrorist-in-pulwama-killed-mastermind-ghazi&amp;title=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤à¤à¥à¤ : à¤à¤¤à¤à¤à¤¿à¤¯à¥à¤ à¤à¥ à¤¸à¤¾à¤¥ à¤¸à¥à¤¨à¤¾ à¤à¥ à¤®à¥à¤ à¤­à¥à¤¡à¤¼ à¤à¤¾à¤°à¥, à¤®à¤¾à¤¸à¥à¤à¤°à¤®à¤¾à¤à¤¨à¥à¤¡ à¤à¤¾à¤à¥ à¤¹à¥à¤ à¤¢à¥à¤°"><attvalue for="3" value="true"/></node>
+          <node id="p399992928" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019-phase-2-top-vip-contests-in-second-phase/&amp;title=Top VIP Contests in Second Phase"><attvalue for="3" value="true"/></node>
+          <node id="p399992927" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/in-punjab-BJP-and-akali-dal-together-seat-sharing-confirm&amp;title=à¤ªà¤à¤à¤¾à¤¬ à¤®à¥à¤ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤à¤¾à¤²à¥ à¤¦à¤² à¤à¤ à¤¸à¤¾à¤¥, à¤¸à¥à¤à¥à¤ à¤à¤¾ à¤¬à¤à¤à¤µà¤¾à¤°à¤¾ à¤¤à¤¯"><attvalue for="3" value="true"/></node>
+          <node id="p399992926" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/2019-assembly-elections-and-assembly-bypolls-in-odisha-live-updates/&amp;title=Live Updates- 2019 Assembly Elections and Assembly By-Polls in Odisha"><attvalue for="3" value="true"/></node>
+          <node id="p399992925" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/others-samachar/pm-modi-announcement-on-pulwama-attack-5-big-decisions-of-the-government&amp;title=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤¹à¤®à¤²à¥ à¤ªà¤° à¤ªà¥à¤à¤® à¤®à¥à¤¦à¥ à¤à¤¾ à¤à¤²à¤¾à¤¨-à¤-à¤à¤à¤: à¤¸à¤°à¤à¤¾à¤° à¤¨à¥ à¤²à¤¿à¤ 5 à¤¬à¤¡à¤¼à¥ à¤«à¥à¤¸à¤²à¥"><attvalue for="3" value="true"/></node>
+          <node id="p399992924" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/the-attack-of-the-opposition-on-bjps-program-politics-in-a-war-like-situation&amp;title=à¤­à¤¾à¤à¤ªà¤¾ à¤à¥ à¤à¤¾à¤°à¥à¤¯à¤à¥à¤°à¤® à¤ªà¤° à¤µà¤¿à¤ªà¤à¥à¤· à¤à¤¾ à¤¨à¤¿à¤¶à¤¾à¤¨à¤¾, à¤¯à¥à¤¦à¥à¤§ à¤à¥à¤¸à¥ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤®à¥à¤ à¤à¤° à¤°à¤¹à¥ à¤°à¤¾à¤à¤¨à¥à¤¤à¤¿"><attvalue for="3" value="true"/></node>
+          <node id="p399992923" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/assembly-elections-and-assembly-bypolls-in-tamil-nadu-live-updates/&amp;title=Live Updates- 2019 Assembly By-polls in Tamil Nadu"><attvalue for="3" value="true"/></node>
+          <node id="p399992922" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/akhilesh-vs-yogi-sp-bsp-delegation-who-arrived-near-governor-ram-naik&amp;title=à¤à¤à¤¿à¤²à¥à¤¶ à¤¬à¤¨à¤¾à¤® à¤¯à¥à¤à¥: à¤°à¤¾à¤à¥à¤¯à¤ªà¤¾à¤² à¤°à¤¾à¤® à¤¨à¤¾à¤à¤ à¤à¥ à¤ªà¤¾à¤¸ à¤ªà¤¹à¥à¤à¤à¤¾ à¤¸à¤ªà¤¾-à¤¬à¤¸à¤ªà¤¾ à¤ªà¥à¤°à¤¤à¤¿à¤¨à¤¿à¤§à¤¿à¤®à¤à¤¡à¤²"><attvalue for="3" value="true"/></node>
+          <node id="p399992921" label="http://www.stumbleupon.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/amit-shah-meets-anupriya-patel-will-the-bjp-and-apana-dal-fight-together&amp;title=à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹ à¤¸à¥ à¤®à¤¿à¤²à¥à¤ à¤à¤¨à¥à¤ªà¥à¤°à¤¿à¤¯à¤¾ à¤ªà¤à¥à¤², à¤à¥à¤¯à¤¾ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤ªà¤¨à¤¾ à¤¦à¤² à¤®à¤¿à¤²à¤à¤° à¤²à¤¡à¤¼à¥à¤à¤à¥ à¤à¥à¤¨à¤¾à¤µ?"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133627" label="openstreetmap.org">
+        <attvalue for="0" value="ORG"/>
+        <attvalue for="1" value="1"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="1"/>
+        <attvalue for="5" value="org"/>
+        <attvalue for="6" value="org"/>
+        <nodes>
+          <node id="p399992920" label="http://openstreetmap.org"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133626" label="maps.google.co.in">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="1"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="1"/>
+        <attvalue for="5" value="in"/>
+        <attvalue for="6" value="co.in"/>
+        <nodes>
+          <node id="p399992919" label="http://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Nirvachan+Bhawan,+Itanagar+-791111,+Arunachal+Pradesh&amp;aq=&amp;sll=20.984928,82.752628&amp;sspn=65.065363,79.013672&amp;t=h&amp;ie=UTF8&amp;hq=Nirvachan+Bhawan,+-791111,&amp;hnear=Itanagar,+Papum+Pare&amp;z=14&amp;iwloc=A&amp;cid=5684182274276345995&amp;ll=27.088825,93.613976"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133625" label="images.elections.in">
+        <attvalue for="0" value="IN"/>
+        <attvalue for="1" value="4"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="4"/>
+        <attvalue for="5" value="in"/>
+        <attvalue for="6" value="in"/>
+        <nodes>
+          <node id="p399992918" label="http://images.elections.in/political-corner/2014/11/Article-15-of-the-Indian-Constitution.jpg"><attvalue for="3" value="true"/></node>
+          <node id="p399992917" label="http://images.elections.in/political-corner/2014/07/Significance-of-Article-14-of-Indian-Constitution.jpg"><attvalue for="3" value="true"/></node>
+          <node id="p399992916" label="http://images.elections.in/political-corner/2014/08/article-21.jpg"><attvalue for="3" value="true"/></node>
+          <node id="p399992915" label="http://images.elections.in/political-corner/2014/08/pol-corner_1.jpg"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133624" label="facebook.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="38"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="19"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992914" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/bathinda-the-way-for-harsimrat-kaur-will-not-be-as-easy-as-2014-this-time&amp;t=à¤¬à¤ à¤¿à¤à¤¡à¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¤¸ à¤¬à¤¾à¤° 2014 à¤à¥ à¤¤à¤°à¤¹ à¤à¤¸à¤¾à¤¨ à¤¨à¤¹à¥à¤ à¤¹à¥à¤à¥ à¤¹à¤°à¤¸à¤¿à¤®à¤°à¤¤ à¤à¥à¤° à¤à¥ à¤°à¤¾à¤¹"><attvalue for="3" value="true"/></node>
+          <node id="p399992913" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/Lok+Sabha-Samachar/amit-shah-jaipur-visit&amp;t=à¤à¤ à¤à¤¯à¤ªà¥à¤° à¤¦à¥à¤°à¥ à¤ªà¤° à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹, à¤à¤¾à¤°à¥à¤¯à¤à¤°à¥à¤¤à¤¾à¤à¤ à¤à¥ à¤¦à¥à¤à¤à¥ âà¤®à¥à¤°à¤¾ à¤¬à¥à¤¥-à¤¸à¤¬à¤¸à¥ à¤®à¤à¤¬à¥à¤¤â à¤à¤¾ à¤®à¤à¤¤à¥à¤°"><attvalue for="3" value="true"/></node>
+          <node id="p399992912" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-elections-2019-phase-2-top-vip-contests-in-second-phase/&amp;t=Top VIP Contests in Second Phase"><attvalue for="3" value="true"/></node>
+          <node id="p399992911" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/akhilesh-vs-yogi-sp-bsp-delegation-who-arrived-near-governor-ram-naik&amp;t=à¤à¤à¤¿à¤²à¥à¤¶ à¤¬à¤¨à¤¾à¤® à¤¯à¥à¤à¥: à¤°à¤¾à¤à¥à¤¯à¤ªà¤¾à¤² à¤°à¤¾à¤® à¤¨à¤¾à¤à¤ à¤à¥ à¤ªà¤¾à¤¸ à¤ªà¤¹à¥à¤à¤à¤¾ à¤¸à¤ªà¤¾-à¤¬à¤¸à¤ªà¤¾ à¤ªà¥à¤°à¤¤à¤¿à¤¨à¤¿à¤§à¤¿à¤®à¤à¤¡à¤²"><attvalue for="3" value="true"/></node>
+          <node id="p399992910" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-elections-2019/lok-sabha-elections-2019-second-phase-of-polling-on-april-18/&amp;t=Lok Sabha Elections 2019 – Second Phase Live Updates"><attvalue for="3" value="true"/></node>
+          <node id="p399992909" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/Jammu-and-Kashmir-Samachar/army-encounters-with-terrorist-in-pulwama-killed-mastermind-ghazi&amp;t=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤à¤à¥à¤ : à¤à¤¤à¤à¤à¤¿à¤¯à¥à¤ à¤à¥ à¤¸à¤¾à¤¥ à¤¸à¥à¤¨à¤¾ à¤à¥ à¤®à¥à¤ à¤­à¥à¤¡à¤¼ à¤à¤¾à¤°à¥, à¤®à¤¾à¤¸à¥à¤à¤°à¤®à¤¾à¤à¤¨à¥à¤¡ à¤à¤¾à¤à¥ à¤¹à¥à¤ à¤¢à¥à¤°"><attvalue for="3" value="true"/></node>
+          <node id="p399992908" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/in-punjab-BJP-and-akali-dal-together-seat-sharing-confirm&amp;t=à¤ªà¤à¤à¤¾à¤¬ à¤®à¥à¤ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤à¤¾à¤²à¥ à¤¦à¤² à¤à¤ à¤¸à¤¾à¤¥, à¤¸à¥à¤à¥à¤ à¤à¤¾ à¤¬à¤à¤à¤µà¤¾à¤°à¤¾ à¤¤à¤¯"><attvalue for="3" value="true"/></node>
+          <node id="p399992907" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-elections-2019-bjp-might-lose-50-60-seats-in-uttar-pradesh-a-mathematical-perspective/&amp;t=BJP Might Lose 50-60 Seats in Uttar Pradesh â A Mathematical Perspective?"><attvalue for="3" value="true"/></node>
+          <node id="p399992906" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/yeddyurappa-said-BJP-will-win-22-lok-sabha-seats-in-karnataka&amp;t=à¤¯à¥à¤¦à¤¿à¤¯à¥à¤°à¤ªà¥à¤ªà¤¾ à¤à¥ à¤­à¤°à¥à¤¸à¤¾, à¤à¤¯à¤° à¤¸à¥à¤à¥à¤°à¤¾à¤à¤ à¤¸à¥ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤°à¥à¤¨à¤¾à¤à¤ à¤®à¥à¤ à¤à¥à¤¤à¥à¤à¥ 22 à¤¸à¥à¤à¥à¤"><attvalue for="3" value="true"/></node>
+          <node id="p399992905" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/the-attack-of-the-opposition-on-bjps-program-politics-in-a-war-like-situation&amp;t=à¤­à¤¾à¤à¤ªà¤¾ à¤à¥ à¤à¤¾à¤°à¥à¤¯à¤à¥à¤°à¤® à¤ªà¤° à¤µà¤¿à¤ªà¤à¥à¤· à¤à¤¾ à¤¨à¤¿à¤¶à¤¾à¤¨à¤¾, à¤¯à¥à¤¦à¥à¤§ à¤à¥à¤¸à¥ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤®à¥à¤ à¤à¤° à¤°à¤¹à¥ à¤°à¤¾à¤à¤¨à¥à¤¤à¤¿"><attvalue for="3" value="true"/></node>
+          <node id="p399992904" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/amit-shah-meets-anupriya-patel-will-the-bjp-and-apana-dal-fight-together&amp;t=à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹ à¤¸à¥ à¤®à¤¿à¤²à¥à¤ à¤à¤¨à¥à¤ªà¥à¤°à¤¿à¤¯à¤¾ à¤ªà¤à¥à¤², à¤à¥à¤¯à¤¾ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤ªà¤¨à¤¾ à¤¦à¤² à¤®à¤¿à¤²à¤à¤° à¤²à¤¡à¤¼à¥à¤à¤à¥ à¤à¥à¤¨à¤¾à¤µ?"><attvalue for="3" value="true"/></node>
+          <node id="p399992903" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/others-samachar/pm-modi-announcement-on-pulwama-attack-5-big-decisions-of-the-government&amp;t=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤¹à¤®à¤²à¥ à¤ªà¤° à¤ªà¥à¤à¤® à¤®à¥à¤¦à¥ à¤à¤¾ à¤à¤²à¤¾à¤¨-à¤-à¤à¤à¤: à¤¸à¤°à¤à¤¾à¤° à¤¨à¥ à¤²à¤¿à¤ 5 à¤¬à¤¡à¤¼à¥ à¤«à¥à¤¸à¤²à¥"><attvalue for="3" value="true"/></node>
+          <node id="p399992902" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/Lok-Sabha-elections-2019-bsp-announces-candidates-for-6-chhattisgarh-seats/&amp;t=Lok Sabha Elections 2019: BSP announces candidates for 6 Chhattisgarh Seats"><attvalue for="3" value="true"/></node>
+          <node id="p399992901" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-elections-phase-2-parliamentary-seats&amp;t=Parliamentary Seats in Phase 2 – Lok Sabha Elections 2019"><attvalue for="3" value="true"/></node>
+          <node id="p399992900" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/will-congress-be-able-to-win-on-khandwa-lok-sabha-seat&amp;t=à¤à¤à¤¡à¤µà¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¥à¤¯à¤¾ 2014 à¤à¥ à¤¹à¤¾à¤° à¤à¤¾ à¤¬à¤¦à¤²à¤¾ à¤²à¥ à¤ªà¤¾à¤à¤à¥ à¤à¤¾à¤à¤à¥à¤°à¥à¤¸"><attvalue for="3" value="true"/></node>
+          <node id="p399992899" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-samachar/lok-sabha-elections-2019-mulayam-praised-modi-difficulties-increases-before-sp&amp;t=à¤²à¥à¤à¤¸à¤­à¤¾ à¤à¥à¤¨à¤¾à¤µ 2019: à¤®à¥à¤²à¤¾à¤¯à¤® à¤à¥ à¤®à¥à¤¦à¥ à¤ªà¥à¤°à¥à¤® à¤¸à¥ à¤¬à¤¢à¤¼à¥ à¤¸à¤ªà¤¾ à¤à¥ à¤®à¥à¤¶à¥à¤à¤¿à¤²à¥à¤"><attvalue for="3" value="true"/></node>
+          <node id="p399992898" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/lok-sabha-elections-2019-election-commission-barred-leaders-for-provocative-speeches/&amp;t=Election Commission Barred Leaders for Provocative Speeches"><attvalue for="3" value="true"/></node>
+          <node id="p399992897" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/assembly-elections-and-assembly-bypolls-in-tamil-nadu-live-updates/&amp;t=Live Updates- 2019 Assembly By-polls in Tamil Nadu"><attvalue for="3" value="true"/></node>
+          <node id="p399992896" label="http://www.facebook.com/share.php?u=http://www.elections.in/news/2019-assembly-elections-and-assembly-bypolls-in-odisha-live-updates/&amp;t=Live Updates- 2019 Assembly Elections and Assembly By-Polls in Odisha"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133623" label="expressindia.indianexpress.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="1"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="1"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992895" label="http://expressindia.indianexpress.com/ramnath-goenka-foundation/"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133622" label="expressgroup.indianexpress.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="23"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="23"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992894" label="http://expressgroup.indianexpress.com/advertise.html"><attvalue for="3" value="true"/></node>
+          <node id="p399992893" label="http://expressgroup.indianexpress.com/"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133621" label="epaper.indianexpress.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="3"/>
+        <attvalue for="2" value="2"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="2"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992988" label="http://epaper.indianexpress.com/t/10015"><attvalue for="3" value="true"/></node>
+          <node id="p399992989" label="http://epaper.indianexpress.com/t/10015/?s=Jaipur"><attvalue for="3" value="true"/></node>
+          <node id="p399992990" label="http://epaper.indianexpress.com/t/226"><attvalue for="3" value="true"/></node>
+          <node id="p399992991" label="http://epaper.indianexpress.com/t/226/?s=Delhi"><attvalue for="3" value="true"/></node>
+          <node id="p399992992" label="http://epaper.indianexpress.com/t/236"><attvalue for="3" value="true"/></node>
+          <node id="p399992993" label="http://epaper.indianexpress.com/t/236/?s=Mumbai"><attvalue for="3" value="true"/></node>
+          <node id="p399992994" label="http://epaper.indianexpress.com/t/23812"><attvalue for="3" value="true"/></node>
+          <node id="p399992995" label="http://epaper.indianexpress.com/t/23812/?s=IE 100"><attvalue for="3" value="true"/></node>
+          <node id="p399992996" label="http://epaper.indianexpress.com/t/266"><attvalue for="3" value="true"/></node>
+          <node id="p399992997" label="http://epaper.indianexpress.com/t/266/?s=Pune"><attvalue for="3" value="true"/></node>
+          <node id="p399992998" label="http://epaper.indianexpress.com/t/269"><attvalue for="3" value="true"/></node>
+          <node id="p399992999" label="http://epaper.indianexpress.com/t/269/?s=EYE"><attvalue for="3" value="true"/></node>
+          <node id="p399993000" label="http://epaper.indianexpress.com/t/271"><attvalue for="3" value="true"/></node>
+          <node id="p399993001" label="http://epaper.indianexpress.com/t/271/?s=Chandigarh"><attvalue for="3" value="true"/></node>
+          <node id="p399993002" label="http://epaper.indianexpress.com/t/300"><attvalue for="3" value="true"/></node>
+          <node id="p399993003" label="http://epaper.indianexpress.com/t/300/?s=Ahmedabad"><attvalue for="3" value="true"/></node>
+          <node id="p399993004" label="http://epaper.indianexpress.com/t/336"><attvalue for="3" value="true"/></node>
+          <node id="p399993005" label="http://epaper.indianexpress.com/t/336/?s=Kolkata"><attvalue for="3" value="true"/></node>
+          <node id="p399993006" label="http://epaper.indianexpress.com/t/433"><attvalue for="3" value="true"/></node>
+          <node id="p399993007" label="http://epaper.indianexpress.com/t/433/?s=Lucknow"><attvalue for="3" value="true"/></node>
+          <node id="p399992892" label="http://epaper.indianexpress.com/"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133620" label="eci.nic.in">
+        <attvalue for="0" value="IN"/>
+        <attvalue for="1" value="255"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="1"/>
+        <attvalue for="5" value="in"/>
+        <attvalue for="6" value="nic.in"/>
+        <nodes>
+          <node id="p399992891" label="http://eci.nic.in"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133619" label="eci-citizenservices.nic.in">
+        <attvalue for="0" value="IN"/>
+        <attvalue for="1" value="3"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="2"/>
+        <attvalue for="5" value="in"/>
+        <attvalue for="6" value="nic.in"/>
+        <nodes>
+          <node id="p399992890" label="http://eci-citizenservices.nic.in"><attvalue for="3" value="true"/></node>
+          <node id="p399992889" label="http://eci-citizenservices.nic.in/frmForm6New.aspx"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133618" label="digg.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="38"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="19"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992888" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/akhilesh-vs-yogi-sp-bsp-delegation-who-arrived-near-governor-ram-naik&amp;title=à¤à¤à¤¿à¤²à¥à¤¶ à¤¬à¤¨à¤¾à¤® à¤¯à¥à¤à¥: à¤°à¤¾à¤à¥à¤¯à¤ªà¤¾à¤² à¤°à¤¾à¤® à¤¨à¤¾à¤à¤ à¤à¥ à¤ªà¤¾à¤¸ à¤ªà¤¹à¥à¤à¤à¤¾ à¤¸à¤ªà¤¾-à¤¬à¤¸à¤ªà¤¾ à¤ªà¥à¤°à¤¤à¤¿à¤¨à¤¿à¤§à¤¿à¤®à¤à¤¡à¤²"><attvalue for="3" value="true"/></node>
+          <node id="p399992887" label="http://digg.com/submit?url=http://www.elections.in/news/Lok-Sabha-elections-2019-bsp-announces-candidates-for-6-chhattisgarh-seats/&amp;title=Lok Sabha Elections 2019: BSP announces candidates for 6 Chhattisgarh Seats"><attvalue for="3" value="true"/></node>
+          <node id="p399992886" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019-phase-2-top-vip-contests-in-second-phase/&amp;title=Top VIP Contests in Second Phase"><attvalue for="3" value="true"/></node>
+          <node id="p399992885" label="http://digg.com/submit?url=http://www.elections.in/news/others-samachar/pm-modi-announcement-on-pulwama-attack-5-big-decisions-of-the-government&amp;title=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤¹à¤®à¤²à¥ à¤ªà¤° à¤ªà¥à¤à¤® à¤®à¥à¤¦à¥ à¤à¤¾ à¤à¤²à¤¾à¤¨-à¤-à¤à¤à¤: à¤¸à¤°à¤à¤¾à¤° à¤¨à¥ à¤²à¤¿à¤ 5 à¤¬à¤¡à¤¼à¥ à¤«à¥à¤¸à¤²à¥"><attvalue for="3" value="true"/></node>
+          <node id="p399992884" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/amit-shah-meets-anupriya-patel-will-the-bjp-and-apana-dal-fight-together&amp;title=à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹ à¤¸à¥ à¤®à¤¿à¤²à¥à¤ à¤à¤¨à¥à¤ªà¥à¤°à¤¿à¤¯à¤¾ à¤ªà¤à¥à¤², à¤à¥à¤¯à¤¾ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤ªà¤¨à¤¾ à¤¦à¤² à¤®à¤¿à¤²à¤à¤° à¤²à¤¡à¤¼à¥à¤à¤à¥ à¤à¥à¤¨à¤¾à¤µ?"><attvalue for="3" value="true"/></node>
+          <node id="p399992883" label="http://digg.com/submit?url=http://www.elections.in/news/2019-assembly-elections-and-assembly-bypolls-in-odisha-live-updates/&amp;title=Live Updates- 2019 Assembly Elections and Assembly By-Polls in Odisha"><attvalue for="3" value="true"/></node>
+          <node id="p399992882" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/lok-sabha-elections-2019-mulayam-praised-modi-difficulties-increases-before-sp&amp;title=à¤²à¥à¤à¤¸à¤­à¤¾ à¤à¥à¤¨à¤¾à¤µ 2019: à¤®à¥à¤²à¤¾à¤¯à¤® à¤à¥ à¤®à¥à¤¦à¥ à¤ªà¥à¤°à¥à¤® à¤¸à¥ à¤¬à¤¢à¤¼à¥ à¤¸à¤ªà¤¾ à¤à¥ à¤®à¥à¤¶à¥à¤à¤¿à¤²à¥à¤"><attvalue for="3" value="true"/></node>
+          <node id="p399992881" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/will-congress-be-able-to-win-on-khandwa-lok-sabha-seat&amp;title=à¤à¤à¤¡à¤µà¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¥à¤¯à¤¾ 2014 à¤à¥ à¤¹à¤¾à¤° à¤à¤¾ à¤¬à¤¦à¤²à¤¾ à¤²à¥ à¤ªà¤¾à¤à¤à¥ à¤à¤¾à¤à¤à¥à¤°à¥à¤¸"><attvalue for="3" value="true"/></node>
+          <node id="p399992880" label="http://digg.com/submit?url=http://www.elections.in/news/Lok+Sabha-Samachar/amit-shah-jaipur-visit&amp;title=à¤à¤ à¤à¤¯à¤ªà¥à¤° à¤¦à¥à¤°à¥ à¤ªà¤° à¤à¤®à¤¿à¤¤ à¤¶à¤¾à¤¹, à¤à¤¾à¤°à¥à¤¯à¤à¤°à¥à¤¤à¤¾à¤à¤ à¤à¥ à¤¦à¥à¤à¤à¥ âà¤®à¥à¤°à¤¾ à¤¬à¥à¤¥-à¤¸à¤¬à¤¸à¥ à¤®à¤à¤¬à¥à¤¤â à¤à¤¾ à¤®à¤à¤¤à¥à¤°"><attvalue for="3" value="true"/></node>
+          <node id="p399992879" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/the-attack-of-the-opposition-on-bjps-program-politics-in-a-war-like-situation&amp;title=à¤­à¤¾à¤à¤ªà¤¾ à¤à¥ à¤à¤¾à¤°à¥à¤¯à¤à¥à¤°à¤® à¤ªà¤° à¤µà¤¿à¤ªà¤à¥à¤· à¤à¤¾ à¤¨à¤¿à¤¶à¤¾à¤¨à¤¾, à¤¯à¥à¤¦à¥à¤§ à¤à¥à¤¸à¥ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤®à¥à¤ à¤à¤° à¤°à¤¹à¥ à¤°à¤¾à¤à¤¨à¥à¤¤à¤¿"><attvalue for="3" value="true"/></node>
+          <node id="p399992878" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/yeddyurappa-said-BJP-will-win-22-lok-sabha-seats-in-karnataka&amp;title=à¤¯à¥à¤¦à¤¿à¤¯à¥à¤°à¤ªà¥à¤ªà¤¾ à¤à¥ à¤­à¤°à¥à¤¸à¤¾, à¤à¤¯à¤° à¤¸à¥à¤à¥à¤°à¤¾à¤à¤ à¤¸à¥ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤°à¥à¤¨à¤¾à¤à¤ à¤®à¥à¤ à¤à¥à¤¤à¥à¤à¥ 22 à¤¸à¥à¤à¥à¤"><attvalue for="3" value="true"/></node>
+          <node id="p399992877" label="http://digg.com/submit?url=http://www.elections.in/news/Jammu-and-Kashmir-Samachar/army-encounters-with-terrorist-in-pulwama-killed-mastermind-ghazi&amp;title=à¤ªà¥à¤²à¤µà¤¾à¤®à¤¾ à¤à¤à¥à¤ : à¤à¤¤à¤à¤à¤¿à¤¯à¥à¤ à¤à¥ à¤¸à¤¾à¤¥ à¤¸à¥à¤¨à¤¾ à¤à¥ à¤®à¥à¤ à¤­à¥à¤¡à¤¼ à¤à¤¾à¤°à¥, à¤®à¤¾à¤¸à¥à¤à¤°à¤®à¤¾à¤à¤¨à¥à¤¡ à¤à¤¾à¤à¥ à¤¹à¥à¤ à¤¢à¥à¤°"><attvalue for="3" value="true"/></node>
+          <node id="p399992876" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019-bjp-might-lose-50-60-seats-in-uttar-pradesh-a-mathematical-perspective/&amp;title=BJP Might Lose 50-60 Seats in Uttar Pradesh â A Mathematical Perspective?"><attvalue for="3" value="true"/></node>
+          <node id="p399992875" label="http://digg.com/submit?url=http://www.elections.in/news/assembly-elections-and-assembly-bypolls-in-tamil-nadu-live-updates/&amp;title=Live Updates- 2019 Assembly By-polls in Tamil Nadu"><attvalue for="3" value="true"/></node>
+          <node id="p399992874" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019-election-commission-barred-leaders-for-provocative-speeches/&amp;title=Election Commission Barred Leaders for Provocative Speeches"><attvalue for="3" value="true"/></node>
+          <node id="p399992873" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-elections-2019/lok-sabha-elections-2019-second-phase-of-polling-on-april-18/&amp;title=Lok Sabha Elections 2019 – Second Phase Live Updates"><attvalue for="3" value="true"/></node>
+          <node id="p399992872" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-elections-phase-2-parliamentary-seats&amp;title=Parliamentary Seats in Phase 2 – Lok Sabha Elections 2019"><attvalue for="3" value="true"/></node>
+          <node id="p399992871" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/bathinda-the-way-for-harsimrat-kaur-will-not-be-as-easy-as-2014-this-time&amp;title=à¤¬à¤ à¤¿à¤à¤¡à¤¾ à¤²à¥à¤à¤¸à¤­à¤¾ à¤¸à¥à¤: à¤à¤¸ à¤¬à¤¾à¤° 2014 à¤à¥ à¤¤à¤°à¤¹ à¤à¤¸à¤¾à¤¨ à¤¨à¤¹à¥à¤ à¤¹à¥à¤à¥ à¤¹à¤°à¤¸à¤¿à¤®à¤°à¤¤ à¤à¥à¤° à¤à¥ à¤°à¤¾à¤¹"><attvalue for="3" value="true"/></node>
+          <node id="p399992870" label="http://digg.com/submit?url=http://www.elections.in/news/lok-sabha-samachar/in-punjab-BJP-and-akali-dal-together-seat-sharing-confirm&amp;title=à¤ªà¤à¤à¤¾à¤¬ à¤®à¥à¤ à¤­à¤¾à¤à¤ªà¤¾ à¤à¤° à¤à¤à¤¾à¤²à¥ à¤¦à¤² à¤à¤ à¤¸à¤¾à¤¥, à¤¸à¥à¤à¥à¤ à¤à¤¾ à¤¬à¤à¤à¤µà¤¾à¤°à¤¾ à¤¤à¤¯"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133617" label="ceouttarpradesh.nic.in">
+        <attvalue for="0" value="IN"/>
+        <attvalue for="1" value="1"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="1"/>
+        <attvalue for="5" value="in"/>
+        <attvalue for="6" value="nic.in"/>
+        <nodes>
+          <node id="p399992869" label="http://ceouttarpradesh.nic.in/_VoterForms_eng.aspx"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+      <node id="s48133616" label="164.100.180.82">
+        <attvalue for="0" value=""/>
+        <attvalue for="1" value="206"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="1"/>
+        <attvalue for="5" value="82"/>
+        <attvalue for="6" value="82"/>
+        <nodes>
+          <node id="p399992868" label="http://164.100.180.82/claims/"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+    </nodes>
+    <edges>
+              <edge id="l0" source="p399992961" target="p399992919" />
+              <edge id="l1" source="p399992962" target="p399992889" />
+              <edge id="l2" source="p399992962" target="p399992891" />
+              <edge id="l3" source="p399992962" target="p399992890" />
+              <edge id="l4" source="p399992963" target="p399992920" />
+              <edge id="l5" source="p399992964" target="p399992883" />
+              <edge id="l6" source="p399992964" target="p399992896" />
+              <edge id="l7" source="p399992964" target="p399992926" />
+              <edge id="l8" source="p399992964" target="p399992947" />
+              <edge id="l9" source="p399992965" target="p399992955" />
+              <edge id="l10" source="p399992965" target="p399992909" />
+              <edge id="l11" source="p399992965" target="p399992929" />
+              <edge id="l12" source="p399992965" target="p399992877" />
+              <edge id="l13" source="p399992966" target="p399992950" />
+              <edge id="l14" source="p399992966" target="p399992880" />
+              <edge id="l15" source="p399992966" target="p399992934" />
+              <edge id="l16" source="p399992966" target="p399992913" />
+              <edge id="l17" source="p399992967" target="p399992930" />
+              <edge id="l18" source="p399992967" target="p399992944" />
+              <edge id="l19" source="p399992967" target="p399992887" />
+              <edge id="l20" source="p399992967" target="p399992902" />
+              <edge id="l21" source="p399992968" target="p399992953" />
+              <edge id="l22" source="p399992968" target="p399992923" />
+              <edge id="l23" source="p399992968" target="p399992897" />
+              <edge id="l24" source="p399992968" target="p399992875" />
+              <edge id="l25" source="p399992969" target="p399992907" />
+              <edge id="l26" source="p399992969" target="p399992935" />
+              <edge id="l27" source="p399992969" target="p399992957" />
+              <edge id="l28" source="p399992969" target="p399992876" />
+              <edge id="l29" source="p399992970" target="p399992898" />
+              <edge id="l30" source="p399992970" target="p399992937" />
+              <edge id="l31" source="p399992970" target="p399992956" />
+              <edge id="l32" source="p399992970" target="p399992874" />
+              <edge id="l33" source="p399992971" target="p399992928" />
+              <edge id="l34" source="p399992971" target="p399992886" />
+              <edge id="l35" source="p399992971" target="p399992952" />
+              <edge id="l36" source="p399992971" target="p399992912" />
+              <edge id="l37" source="p399992972" target="p399992873" />
+              <edge id="l38" source="p399992972" target="p399992939" />
+              <edge id="l39" source="p399992972" target="p399992910" />
+              <edge id="l40" source="p399992972" target="p399992951" />
+              <edge id="l41" source="p399992973" target="p399992938" />
+              <edge id="l42" source="p399992973" target="p399992949" />
+              <edge id="l43" source="p399992973" target="p399992872" />
+              <edge id="l44" source="p399992973" target="p399992901" />
+              <edge id="l45" source="p399992974" target="p399992922" />
+              <edge id="l46" source="p399992974" target="p399992943" />
+              <edge id="l47" source="p399992974" target="p399992888" />
+              <edge id="l48" source="p399992974" target="p399992911" />
+              <edge id="l49" source="p399992975" target="p399992921" />
+              <edge id="l50" source="p399992975" target="p399992904" />
+              <edge id="l51" source="p399992975" target="p399992884" />
+              <edge id="l52" source="p399992975" target="p399992959" />
+              <edge id="l53" source="p399992976" target="p399992871" />
+              <edge id="l54" source="p399992976" target="p399992954" />
+              <edge id="l55" source="p399992976" target="p399992933" />
+              <edge id="l56" source="p399992976" target="p399992914" />
+              <edge id="l57" source="p399992977" target="p399992870" />
+              <edge id="l58" source="p399992977" target="p399992908" />
+              <edge id="l59" source="p399992977" target="p399992927" />
+              <edge id="l60" source="p399992977" target="p399992948" />
+              <edge id="l61" source="p399992978" target="p399992899" />
+              <edge id="l62" source="p399992978" target="p399992882" />
+              <edge id="l63" source="p399992978" target="p399992945" />
+              <edge id="l64" source="p399992978" target="p399992936" />
+              <edge id="l65" source="p399992979" target="p399992946" />
+              <edge id="l66" source="p399992979" target="p399992905" />
+              <edge id="l67" source="p399992979" target="p399992879" />
+              <edge id="l68" source="p399992979" target="p399992924" />
+              <edge id="l69" source="p399992980" target="p399992900" />
+              <edge id="l70" source="p399992980" target="p399992958" />
+              <edge id="l71" source="p399992980" target="p399992881" />
+              <edge id="l72" source="p399992980" target="p399992932" />
+              <edge id="l73" source="p399992981" target="p399992906" />
+              <edge id="l74" source="p399992981" target="p399992878" />
+              <edge id="l75" source="p399992981" target="p399992931" />
+              <edge id="l76" source="p399992981" target="p399992941" />
+              <edge id="l77" source="p399992982" target="p399992925" />
+              <edge id="l78" source="p399992982" target="p399992942" />
+              <edge id="l79" source="p399992982" target="p399992885" />
+              <edge id="l80" source="p399992982" target="p399992903" />
+              <edge id="l81" source="p399992983" target="p399992918" />
+              <edge id="l82" source="p399992984" target="p399992915" />
+              <edge id="l83" source="p399992985" target="p399992917" />
+              <edge id="l84" source="p399992986" target="p399992916" />
+              <edge id="l85" source="p399992987" target="p399992868" />
+              <edge id="l86" source="p399992987" target="p399992869" />
+              <edge id="l87" source="p399993008" target="p399992940" />
+              <edge id="l88" source="p399993008" target="p399992892" />
+              <edge id="l89" source="p399993008" target="p399992895" />
+              <edge id="l90" source="p399993008" target="p399992960" />
+              <edge id="l91" source="p399993008" target="p399992894" />
+              <edge id="l92" source="p399993008" target="p399992893" />
+              <edge id="l93" source="p399992940" target="p399992892" />
+              <edge id="l94" source="p399992940" target="p399992960" />
+              <edge id="l95" source="p399992988" target="p399992894" />
+              <edge id="l96" source="p399992988" target="p399992940" />
+              <edge id="l97" source="p399992989" target="p399992894" />
+              <edge id="l98" source="p399992989" target="p399992940" />
+              <edge id="l99" source="p399992990" target="p399992894" />
+              <edge id="l100" source="p399992990" target="p399992940" />
+              <edge id="l101" source="p399992991" target="p399992940" />
+              <edge id="l102" source="p399992991" target="p399992894" />
+              <edge id="l103" source="p399992992" target="p399992940" />
+              <edge id="l104" source="p399992992" target="p399992894" />
+              <edge id="l105" source="p399992993" target="p399992940" />
+              <edge id="l106" source="p399992993" target="p399992894" />
+              <edge id="l107" source="p399992994" target="p399992894" />
+              <edge id="l108" source="p399992994" target="p399992940" />
+              <edge id="l109" source="p399992995" target="p399992940" />
+              <edge id="l110" source="p399992995" target="p399992894" />
+              <edge id="l111" source="p399992996" target="p399992940" />
+              <edge id="l112" source="p399992996" target="p399992894" />
+              <edge id="l113" source="p399992997" target="p399992894" />
+              <edge id="l114" source="p399992997" target="p399992940" />
+              <edge id="l115" source="p399992998" target="p399992940" />
+              <edge id="l116" source="p399992998" target="p399992894" />
+              <edge id="l117" source="p399992999" target="p399992894" />
+              <edge id="l118" source="p399992999" target="p399992940" />
+              <edge id="l119" source="p399993000" target="p399992940" />
+              <edge id="l120" source="p399993000" target="p399992894" />
+              <edge id="l121" source="p399993001" target="p399992894" />
+              <edge id="l122" source="p399993001" target="p399992940" />
+              <edge id="l123" source="p399993002" target="p399992894" />
+              <edge id="l124" source="p399993002" target="p399992940" />
+              <edge id="l125" source="p399993003" target="p399992894" />
+              <edge id="l126" source="p399993003" target="p399992940" />
+              <edge id="l127" source="p399993004" target="p399992940" />
+              <edge id="l128" source="p399993004" target="p399992894" />
+              <edge id="l129" source="p399993005" target="p399992940" />
+              <edge id="l130" source="p399993005" target="p399992894" />
+              <edge id="l131" source="p399993006" target="p399992894" />
+              <edge id="l132" source="p399993006" target="p399992940" />
+              <edge id="l133" source="p399993007" target="p399992894" />
+              <edge id="l134" source="p399993007" target="p399992940" />
+              <edge id="l135" source="p399992892" target="p399992940" />
+              <edge id="l136" source="p399992892" target="p399992894" />
+    </edges>
+  </graph>
+</gexf>

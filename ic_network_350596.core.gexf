@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft"
+      xmlns:xsi="http://wwww.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.gexf.net/1.2draft
+                          http://www.gexf.net/1.2draft/gexf.xds"
+      xmlns:icmeta="http://www.issuecrawler.net/gexf-icmeta"
+      version="1.2">
+  <meta>
+    <creator>Issuecrawler.net GEXF exporter r0.2</creator>
+    <description>Google 300,000 test 2</description>
+    <icmeta:id>350596</icmeta:id>
+    <icmeta:schedule_index>0</icmeta:schedule_index>
+    <icmeta:author>Aryan Bhasin</icmeta:author>
+    <icmeta:email>abhasin@princeton.edu</icmeta:email>
+    <icmeta:queued>2019-04-18 22:02:30.813988</icmeta:queued>
+    <icmeta:start>2019-04-18 20:12:52</icmeta:start>
+    <icmeta:end>2019-04-18 20:34:53</icmeta:end>
+    <icmeta:startingpoints><icmeta:StartingPoint URL='http://techland.time.com/2012/08/10/googles-self-driving-cars-300000-miles-zero-accidents' />
+<icmeta:StartingPoint URL='http://www.extremetech.com/extreme/134262-self-driving-google-cars-300000-miles-0-crashes-if-only-your-pc-was-as-stable' />
+<icmeta:StartingPoint URL='https://cleantechnica.com/2012/08/28/googles-self-driving-cars-hit-300000-miles-i-saw-the-new-one-exclusive-videos-pics' />
+<icmeta:StartingPoint URL='https://en.wikipedia.org/wiki/Waymo' />
+<icmeta:StartingPoint URL='https://googleblog.blogspot.com/2012/08/the-self-driving-car-logs-more-miles-on.html' />
+<icmeta:StartingPoint URL='https://leftlanenews.com/2012/08/08/googles-self-driving-cars-log-300000-accident-free-miles' />
+<icmeta:StartingPoint URL='https://mashable.com/2012/08/07/google-driverless-cars-safer-than-you' />
+<icmeta:StartingPoint URL='https://talkingpointsmemo.com/idealab/google-s-self-driving-cars-log-300-000-miles-next-up-snow-work-commutes' />
+<icmeta:StartingPoint URL='https://techcrunch.com/2012/08/07/google-cars-300000-miles-without-accident' />
+<icmeta:StartingPoint URL='https://www.cnet.com/news/google-self-driving-car-300000-miles-and-counting' />
+<icmeta:StartingPoint URL='https://www.forbes.com/sites/singularity/2012/08/15/googles-self-driving-car-passes-300000-miles' />
+<icmeta:StartingPoint URL='https://www.marketplace.org/2012/08/08/tech/codebreaker/google-driverless-car-tops-300k-miles' />
+<icmeta:StartingPoint URL='https://www.politifact.com/florida/statements/2013/mar/25/jeb-bush/driverless-car-has-gone-300000-miles-without-accid' />
+<icmeta:StartingPoint URL='https://www.theatlantic.com/technology/archive/2012/08/googles-self-driving-cars-300-000-miles-logged-not-a-single-accident-under-computer-control/260926' />
+<icmeta:StartingPoint URL='https://www.theverge.com/2012/8/7/3226056/google-self-driving-car-300000-test-miles' />
+</icmeta:startingpoints>
+    <icmeta:iterations>1</icmeta:iterations>
+    <icmeta:depth>3</icmeta:depth>
+    <icmeta:colink>by site</icmeta:colink>
+    <icmeta:excluded><icmeta:ExcludeSubstring>download.cnet.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>download.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>download.net</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>netscape.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.adobe.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.amazon.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.apple.com/quicktime</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.hotmail.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.icq.com/download</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.macromedia.com/shockwave</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.microsoft.com/windows/ie</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.napster.com/download</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.opera.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.real.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.winamp.com/download</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.winzip.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>microsoft.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>rambler.ru</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>macromedia.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>wordpress.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>blogger.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>jigsaw.w3.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>validator.w3.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>movabletype.org</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>news.google.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>www.google.</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>statcounter.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>yahoo.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>google.com</icmeta:ExcludeSubstring>
+<icmeta:ExcludeSubstring>typepad.com</icmeta:ExcludeSubstring>
+</icmeta:excluded>  
+    <icmeta:authority>2</icmeta:authority>
+  </meta>
+  <graph defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="0" title="category" type="string"/>
+      <attribute id="1" title="authority" type="integer"/>
+      <attribute id="2" title="knowledge" type="integer"/>
+      <attribute id="3" title="in_network" type="boolean"/>
+      <attribute id="4" title="inlinksfromcrawl" type="integer"/>
+      <attribute id="5" title="tld" type="string"/>
+      <attribute id="6" title="sldtld" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="s48133613" label="pcmag.com">
+        <attvalue for="0" value="COM"/>
+        <attvalue for="1" value="35"/>
+        <attvalue for="2" value="0"/>
+        <attvalue for="3" value="true"/>
+        <attvalue for="4" value="2"/>
+        <attvalue for="5" value="com"/>
+        <attvalue for="6" value="com"/>
+        <nodes>
+          <node id="p399992865" label="http://www.pcmag.com/article2/0,2817,2400400,00.asp"><attvalue for="3" value="true"/></node>
+        </nodes>
+      </node>
+    </nodes>
+    <edges>
+    </edges>
+  </graph>
+</gexf>
